@@ -1,0 +1,3 @@
+Kim Gyeong Man 20150073 assignment1
+I write my code myself.
+I send one data to server with many sockets if there is long message. Then I found problem that order of sockets arrival is different everytime. So when I send data to server with one socket, I make it wait server's answer that send "ready" to client from server. After recieve server's answer, then send data to server with next one socket again. Then I can solve this problem.
